@@ -176,8 +176,9 @@
 - GET /api/shops/search/by-category?category={category} - поиск по категории
 
 ## Модель данных
-
+---
 ### Shop (Магазин):
+```
 public class Shop {
     private Long id;                 // Уникальный идентификатор
     private String name;            // Название магазина
@@ -191,6 +192,7 @@ public class Shop {
     private String category;        // Категория
     private Double revenue;         // Выручка (руб.)
 }
+```
 
 ### Категории магазинов:
 - продукты
