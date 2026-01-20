@@ -174,9 +174,9 @@
 ### Поиск (Search):
 - GET /api/shops/search/by-name?name={name} - поиск по названию
 - GET /api/shops/search/by-category?category={category} - поиск по категории
-
-## Модель данных
 ---
+## Модель данных
+
 ### Shop (Магазин):
 ```
 public class Shop {
