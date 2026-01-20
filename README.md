@@ -1,6 +1,7 @@
 # Shop
 
 Полноценное веб-приложение для управления магазинами с современным интерфейсом на Vue.js и Spring Boot бэкендом. Система предоставляет полный набор CRUD-операций с возможностью поиска, фильтрации и анализа данных о магазинах.
+
 ---
 ## Технологический стек
 
@@ -41,6 +42,7 @@
 ```
    CREATE DATABASE lab6_shop;
 ```
+
 3. Выполните SQL-скрипт из файла V1__init_shops.sql
 
 ### 2. Настройка Backend (Spring Boot)
@@ -53,11 +55,13 @@
    spring.datasource.password=disciple
 ```
    (Измените параметры в соответствии с вашей настройкой PostgreSQL)
+
 3. Соберите и запустите проект:
 ```
    mvn clean install
    mvn spring-boot:run
 ```
+
    Или запустите через IDE (Lab6MyBatisDbApplication.java)
 4. Backend будет доступен по адресу: http://localhost:8080
 5. Документация API (Swagger UI): 
